@@ -5,4 +5,4 @@ services:
       - .env
     volumes:
       - .:/app
-    command: ["watchfiles", "--filter", "python", "python", "-u", "app/bot.py"]
+    command: ["watchfiles", "--filter", "python", "python", "app/bot.py"]
